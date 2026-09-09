@@ -115,6 +115,38 @@ The objective is to help businesses take proactive action instead of reacting af
                          │
                          ▼
               Retention Recommendation
+
+## 📸 Application Screenshots
+
+### 🌐 Streamlit Web Application
+
+ChurnGuard AI provides an interactive Streamlit interface for entering customer information and analyzing churn risk.
+
+#### Dashboard & Customer Profile
+
+![ChurnGuard AI Dashboard](screenshots/streamlit-dashboard.png)
+
+#### Service Information
+
+![Service Information](screenshots/streamlit-services.png)
+
+#### Billing Information
+
+![Billing Information](screenshots/streamlit-billing.png)
+
+#### Prediction Result
+
+The system displays the predicted churn status, churn probability, risk level, recommended action, and customer summary.
+
+![Churn Prediction Result](screenshots/streamlit-result.png)
+
+### 🔌 FastAPI Swagger API
+
+The backend provides interactive API documentation through Swagger UI, allowing users to test the churn prediction API.
+
+![ChurnGuard AI Swagger API](screenshots/swagger-api.png)
+
+
 🛠️ Technologies Used
 Technology	Purpose
 Python	Core programming language
