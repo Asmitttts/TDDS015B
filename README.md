@@ -59,22 +59,27 @@ The trained model is stored in:
 
 ```text
 models/churn_model.pkl
+```
 
 Model evaluation results are stored in:
 
+```text
 models/model_results.json
-🚦 Risk Classification
+```
 
-The system converts the predicted churn probability into an easy-to-understand risk level.
+## 📊 Risk Classification
 
-Risk Level	Meaning
-🟢 Low Risk	Customer has a relatively low probability of leaving
-🟡 Medium Risk	Customer shows a moderate probability of leaving
-🔴 High Risk	Customer has a high probability of leaving
+The system converts the predicted churn probability into three risk levels:
 
-This makes the prediction easier for businesses to understand and use for customer retention.
+| Risk Level | Meaning |
+|---|---|
+| 🟢 Low Risk | Customer has a relatively low probability of churn. |
+| 🟡 Medium Risk | Customer shows a moderate probability of churn. |
+| 🔴 High Risk | Customer has a high probability of leaving. |
 
-💡 Retention Recommendations
+This makes the prediction easier for businesses to understand and helps them take appropriate retention actions.
+
+## 💡 Retention Recommendations
 
 Based on the customer's predicted risk level, ChurnGuard AI can recommend suitable actions such as:
 
